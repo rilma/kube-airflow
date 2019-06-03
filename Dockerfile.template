@@ -1,11 +1,11 @@
 # VERSION 1.8.0.0
 # AUTHOR: Yusuke KUOKA
 # DESCRIPTION: Docker image to run Airflow on Kubernetes which is capable of creating Kubernetes jobs
-# BUILD: docker build --rm -t mumoshu/kube-airflow
-# SOURCE: https://github.com/mumoshu/kube-airflow
+# BUILD: docker build --rm -t rilma/kube-airflow
+# SOURCE: https://github.com/rilma/kube-airflow
 
 FROM    debian:stretch
-MAINTAINER Yusuke KUOKA <ykuoka@gmail.com>
+MAINTAINER Ronald R. Ilma Campana <ronald.ilmacampana@gmail.com>
 
 # Never prompts the user for choices on installation/configuration of packages
 ENV     DEBIAN_FRONTEND noninteractive
